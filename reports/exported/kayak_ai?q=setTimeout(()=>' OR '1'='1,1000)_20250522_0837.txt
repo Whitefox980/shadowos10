@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: kayak.ai?q=setTimeout(()=>' OR '1'='1,1000)
+
+[STATUS]: 406
+[PAYLOAD]: setTimeout(()=>' OR '1'='1,1000)
+---

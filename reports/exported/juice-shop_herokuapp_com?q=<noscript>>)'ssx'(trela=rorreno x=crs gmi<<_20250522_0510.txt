@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=<noscript>>)'ssx'(trela=rorreno x=crs gmi<<
+
+[STATUS]: 200
+[PAYLOAD]: <noscript>>)'ssx'(trela=rorreno x=crs gmi<</noscript>
+---

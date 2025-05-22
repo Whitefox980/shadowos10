@@ -1,0 +1,9 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: kayak.ai?q=<textarea>' OR '1'='1<
+
+[STATUS]: 406
+[PAYLOAD]: <textarea>' OR '1'='1</textarea>
+---
+[STATUS]: 406
+[PAYLOAD]: <textarea>' OR '1'='1</textarea>
+---

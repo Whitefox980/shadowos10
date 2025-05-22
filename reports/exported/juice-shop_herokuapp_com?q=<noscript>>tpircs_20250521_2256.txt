@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=<noscript>>tpircs
+
+[STATUS]: 200
+[PAYLOAD]: <noscript>>tpircs/<)1(trela>tpircs<</noscript>
+---

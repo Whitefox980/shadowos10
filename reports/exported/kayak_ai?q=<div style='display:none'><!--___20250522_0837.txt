@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: kayak.ai?q=<div style='display:none'><!--..
+
+[STATUS]: 406
+[PAYLOAD]: <div style='display:none'><!--../../../etc/passwd--></div>
+---

