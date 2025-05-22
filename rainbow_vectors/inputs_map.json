@@ -1,0 +1,33 @@
+{
+  "https://uat-bugbounty.nonprod.syfe.com": {
+    "GET": ["?q=<<PAYLOAD>>", "?search=<<PAYLOAD>>"],
+    "POST": {
+      "application/x-www-form-urlencoded": [
+        "username=<<PAYLOAD>>&password=test",
+        "data=<<PAYLOAD>>"
+      ],
+      "application/json": [
+        "{\"query\":\"<<PAYLOAD>>\"}",
+        "{\"input\":\"<<PAYLOAD>>\"}"
+      ]
+    },
+    "HEADERS": [
+      {"User-Agent": "<<PAYLOAD>>"},
+      {"Referer": "<<PAYLOAD>>"},
+      {"X-Forwarded-For": "<<PAYLOAD>>"}
+    ]
+  },
+  "https://api.syfe.com": {
+    "GET": ["?id=<<PAYLOAD>>", "?token=<<PAYLOAD>>"],
+    "POST": {
+      "application/json": [
+        "{\"token\": \"<<PAYLOAD>>\"}",
+        "{\"email\": \"<<PAYLOAD>>\"}"
+      ]
+    },
+    "HEADERS": [
+      {"Authorization": "Bearer <<PAYLOAD>>"},
+      {"X-Api-Key": "<<PAYLOAD>>"}
+    ]
+  }
+}

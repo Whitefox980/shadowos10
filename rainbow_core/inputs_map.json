@@ -1,0 +1,9 @@
+{
+  "uat-bugbounty.nonprod.syfe.com": {
+    "inputs": [
+      { "method": "GET", "param": "q" },
+      { "method": "GET", "param": "search" },
+      { "method": "POST", "param": "token", "content_type": "application/json" }
+    ]
+  }
+}

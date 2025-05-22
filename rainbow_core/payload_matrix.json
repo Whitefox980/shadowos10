@@ -1,0 +1,9 @@
+{
+  "base_payloads": [
+    "<script>alert(1)</script>",
+    "' OR '1'='1",
+    "../../../etc/passwd"
+  ],
+  "encodings": ["hex", "unicode", "base64", "reversed"],
+  "templates": ["<form>{payload}</form>", "<noscript>{payload}</noscript>"]
+}

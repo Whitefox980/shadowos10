@@ -1,0 +1,10 @@
+<script>alert(1)</script>
+<img src=x onerror=alert('xss')>
+<svg onload=alert(1)>
+<body onload=alert('xss')>
+
+<script>alert(1)</script>
+<img src=x onerror=alert('xss')>
+<svg onload=alert(1)>
+<body onload=alert('xss')>
+<iframe src="javascript:alert('xss')"></iframe>

