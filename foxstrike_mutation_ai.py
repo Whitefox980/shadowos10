@@ -84,3 +84,11 @@ if __name__ == "__main__":
             run_mutation_mode(t)
     except KeyboardInterrupt:
         print("\n[!] Prekid – AI agent se povlači.")
+import hashlib
+
+def hash_payload(payload):
+    return hashlib.md5(payload.encode()).hexdigest()[:8]
+
+payload = "<script>alert(1)</script>"
+payload_id = hash_payload(payload)
+url = f"https://target.com?q={payload}#ID-{payload_id}"
